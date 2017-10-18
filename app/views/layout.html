@@ -1,0 +1,22 @@
+{% block top_of_page %}{% endblock %}
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--><html lang="{{ html_lang|default('en') }}"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>POPMenu UX</title>
+
+    <!--[if gte IE 9]><!--><link href="{{ asset_path }}stylesheets/animate.css" media="all" rel="stylesheet" /><!--<![endif]-->
+    <!--[if gte IE 9]><!--><link href="{{ asset_path }}stylesheets/ionicons.min.css" media="all" rel="stylesheet" /><!--<![endif]-->
+    <!--[if gte IE 9]><!--><link href="{{ asset_path }}stylesheets/materialize.min.css" media="all" rel="stylesheet" /><!--<![endif]-->
+    <!--[if gte IE 9]><!--><link href="{{ asset_path }}stylesheets/normalize.css" media="all" rel="stylesheet" /><!--<![endif]-->
+    <!--[if gte IE 9]><!--><link href="{{ asset_path }}stylesheets/swipebox.min.css" media="all" rel="stylesheet" /><!--<![endif]-->
+    <!--[if gte IE 9]><!--><link href="{{ asset_path }}stylesheets/swiper.min.css" media="all" rel="stylesheet" /><!--<![endif]-->
+    <!--[if gte IE 9]><!--><link href="{{ asset_path }}stylesheets/main.css" media="all" rel="stylesheet" /><!--<![endif]-->
+    {% block head %}{% endblock %}
+  </head>
+  <body class="{% block body_classes %}{% endblock %}">
+      {% block content %} {% endblock %}    
+      {% include "includes/scripts.html" %}        
+  </body>
+
+</html>
