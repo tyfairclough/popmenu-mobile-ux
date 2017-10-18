@@ -2,8 +2,7 @@
   clean.js
   ===========
   removes folders:
-    - public
-    - govuk_modules
+    - 
 */
 var config = require('./config.json')
 
