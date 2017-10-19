@@ -44,7 +44,7 @@ html, body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-img {
+image {
   max-width: none;
   display: block;
   width: 100%;
@@ -191,22 +191,22 @@ hr {
 /*  2. Colors & Backgrounds
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .accent-text {
-    color: #fdd835 !important;
-}
-.accent-color {
-    background-color: #fdd835 !important;
-}
-.accent-border {
-    border-color: #fdd835 !important;
-}
-.primary-text {
     color: #01acc6 !important;
 }
-.primary-color {
+.accent-color {
     background-color: #01acc6 !important;
 }
-.primary-border {
+.accent-border {
     border-color: #01acc6 !important;
+}
+.primary-text {
+    color: #fdd835 !important;
+}
+.primary-color {
+    background-color: #fdd835 !important;
+}
+.primary-border {
+    border-color: #fdd835 !important;
 }
 .text-light {
     font-weight: 400;
@@ -221,38 +221,38 @@ hr {
 
 /* bg */
 .bg-1 {
-    background: url(../img/1.jpg) no-repeat center / cover !important;
+    background: url(../images/P10360-222-Final-Web-Use-JPG-783x522.jpg) no-repeat center / cover !important;
 }
 .bg-2 {
-    background: url(../img/2.jpg) no-repeat center / cover !important;
+    background: url(../image/2.jpg) no-repeat center / cover !important;
 }
 .bg-3 {
-    background: url(../img/3.jpg) no-repeat center / cover !important;
+    background: url(../image/3.jpg) no-repeat center / cover !important;
 }
 .bg-4 {
-    background: url(../img/4.jpg) no-repeat center / cover !important;
+    background: url(../image/4.jpg) no-repeat center / cover !important;
 }
 .bg-5 {
-    background: url(../img/5.jpg) no-repeat center / cover !important;
+    background: url(../image/5.jpg) no-repeat center / cover !important;
 }
 .bg-9 {
-    background: url(../img/9.jpg) no-repeat center / cover !important;
+    background: url(../image/9.jpg) no-repeat center / cover !important;
 }
 .bg-material {
-    background: url(../img/material.jpg) no-repeat center / cover !important;
+    background: url(../image/material.jpg) no-repeat center / cover !important;
 }
 .bg-blur {
-    background: url(../img/blur.jpg) no-repeat center / cover !important;
+    background: url(../image/blur.jpg) no-repeat center / cover !important;
 }
 .bg-opacity {
-    background: url(../img/opacity.jpg) no-repeat center / cover !important;
+    background: url(../image/opacity.jpg) no-repeat center / cover !important;
 }
 .bg-gradient {
     background: -webkit-linear-gradient(135deg,#01acc6,#00555f);
     background: linear-gradient(135deg,#01acc6,#00555f);
 }
 .bg-shop {
-    background: url(../img/shop.jpg) no-repeat center / cover !important;
+    background: url(../image/shop.jpg) no-repeat center / cover !important;
 }
 
 /* Overlay */
@@ -497,7 +497,7 @@ nav {
 .section.featured {
   padding: 50px 20px 0;
 }
-.section.featured img {
+.section.featured image {
   margin-top: 20px;
 }
 .section .heading {
@@ -547,7 +547,7 @@ footer.page-footer .footer-copyright i {
 .hero-material .parallax {
     height: 100%;
 }
-.hero-material .parallax img {
+.hero-material .parallax image {
     display: block;
 }
 .banner-title {
@@ -746,7 +746,7 @@ footer.page-footer .footer-copyright i {
     font-family: 'Varela Round', sans-serif;
     font-size: 22px;
     font-weight: 400;
-    color: #fff;
+    color: #333;
     line-height: 56px;
     text-align: center;
     margin: 0;
@@ -883,7 +883,7 @@ footer.page-footer .footer-copyright i {
     padding: 10px 0;
     position: relative;
 }
-.chat-img img {
+.chat-image image {
     margin-right: 10px;
     margin-top: 4px;
     width: 32px;
@@ -895,7 +895,7 @@ footer.page-footer .footer-copyright i {
     position: relative;
     flex: 1;
 }
-.chat-img .dot {
+.chat-image .dot {
     width: 12px;
     height: 12px;
     border-radius: 100%;
@@ -1049,7 +1049,7 @@ footer.page-footer .footer-copyright i {
     width: 100%;
     height: 100vh;
 }
-.slider-steps img {
+.slider-steps image {
   width: 50%;
   margin: 0 auto 30px;
 }
@@ -1435,7 +1435,7 @@ footer.page-footer .footer-copyright i {
     padding: 10px 20px;
     position: relative;
 }
-.gallery-item-header img {
+.gallery-item-header image {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -1526,7 +1526,7 @@ footer.page-footer .footer-copyright i {
     display: inline-block;
     margin-bottom: 16px;
 }
-.chat ul li > img {
+.chat ul li > image {
     float: left;
 }
 .chat ul li .message {
@@ -1549,7 +1549,7 @@ footer.page-footer .footer-copyright i {
     border-top-left-radius: 20px;
     border-top-right-radius: 4px;
 }
-.chat ul li.message-right > img {
+.chat ul li.message-right > image {
     float: right;
     width: 45px;
     height: 45px;
@@ -1561,7 +1561,7 @@ footer.page-footer .footer-copyright i {
     margin-bottom: 2px;
     background-color: #f1f1f1 !important;
 }
-.chat ul li.message-left > img {
+.chat ul li.message-left > image {
     margin-right: 0;
     width: 45px;
     height: 45px;
@@ -1634,7 +1634,7 @@ footer.page-footer .footer-copyright i {
     font-size: 14px;
     color: #9e9e9e;
 }
-.todo .todo-element img {
+.todo .todo-element image {
     position: absolute;
     width: 25px;
     height: auto;
@@ -1720,7 +1720,7 @@ footer.page-footer .footer-copyright i {
     align-items: flex-start;
     padding: 10px 0;
 }
-.face-notification img {
+.face-notification image {
     margin-right: 10px;
     margin-top: 4px;
     width: 32px;
@@ -1971,7 +1971,7 @@ footer.page-footer .footer-copyright i {
     right: 0;
     z-index: 1;
 }
-.notify-header img {
+.notify-header image {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -2019,7 +2019,7 @@ footer.page-footer .footer-copyright i {
     display: inline-block;
     margin-bottom: 16px;
 }
-.chat ul li > img {
+.chat ul li > image {
     float: left;
 }
 .chat ul li .message {
@@ -2042,7 +2042,7 @@ footer.page-footer .footer-copyright i {
     border-top-left-radius: 20px;
     border-top-right-radius: 4px;
 }
-.chat ul li.message-right > img {
+.chat ul li.message-right > image {
     float: right;
     width: 45px;
     height: 45px;
@@ -2054,7 +2054,7 @@ footer.page-footer .footer-copyright i {
     margin-bottom: 2px;
     background-color: #f1f1f1 !important;
 }
-.chat ul li.message-left > img {
+.chat ul li.message-left > image {
     margin-right: 0;
     width: 45px;
     height: 45px;
@@ -2336,4 +2336,9 @@ span.data-color {
 .modal.features .col p {
   font-size: 1.2rem;
   margin: 0;
+}
+
+
+.sr-only {
+    display: none;
 }

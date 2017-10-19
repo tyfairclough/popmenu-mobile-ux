@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "basic-auth": "^1.0.3",
-    "basic-auth-connect": "^1.0.0",      
+    "basic-auth-connect": "^1.0.0",
     "body-parser": "^1.14.1",
     "browser-sync": "^2.11.1",
     "cross-spawn": "^5.0.0",
@@ -30,6 +30,7 @@
     "gulp-util": "^3.0.7",
     "marked": "^0.3.6",
     "minimist": "0.0.8",
+    "node-sass": "^4.5.3",
     "notifications-node-client": "^3.0.0",
     "nunjucks": "^2.5.2",
     "nvm": "0.0.4",
