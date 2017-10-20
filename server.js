@@ -5,8 +5,6 @@ var express = require('express')
 var session = require('express-session')
 var nunjucks = require('nunjucks')
 var routes = require('./app/routes.js')
-
-var favicon = require('serve-favicon')
 var app = express()
 
 var bodyParser = require('body-parser')
@@ -69,8 +67,6 @@ app.set('view engine', 'html')
 // Middleware to serve static assets
 app.use('/public', express.static(path.join(__dirname, '/public')))
 
-// Elements refers to icon folder instead of images folder
-app.use(favicon(path.join(__dirname, 'assets', 'images', 'favicon.ico')))
 
 // Support for parsing data in POSTs
 app.use(bodyParser.json())
