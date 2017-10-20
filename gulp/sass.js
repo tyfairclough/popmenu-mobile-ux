@@ -1,8 +1,8 @@
 /*
   sass.js
   ===========
-  compiles sass from assets folder with the govuk_modules
-  also includes sourcemaps
+
+  includes sourcemaps
 */
 
 var gulp = require('gulp')
@@ -11,6 +11,7 @@ var sourcemaps = require('gulp-sourcemaps')
 
 var config = require('./config.json')
 
+<<<<<<< HEAD
 gulp.task('sass', function () {
   return gulp.src(config.paths.assets + '/sass/*.scss')
   .pipe(sourcemaps.init())
@@ -19,3 +20,6 @@ gulp.task('sass', function () {
   .pipe(sourcemaps.write())
   .pipe(gulp.dest(config.paths.public + '/stylesheets/'))
 })
+=======
+
+>>>>>>> 30fe31b0465eb2d7a8904dd704ac7de3515b8db9

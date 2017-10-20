@@ -70,7 +70,7 @@ app.set('view engine', 'html')
 app.use('/public', express.static(path.join(__dirname, '/public')))
 
 // Elements refers to icon folder instead of images folder
-app.use(favicon(path.join(__dirname, 'govuk_modules', 'govuk_template', 'assets', 'images', 'favicon.ico')))
+app.use(favicon(path.join(__dirname, 'assets', 'images', 'favicon.ico')))
 
 // Support for parsing data in POSTs
 app.use(bodyParser.json())
@@ -93,7 +93,7 @@ app.use(session({
     secure: isSecure
   },
   // use random name to avoid clashes with other prototypes
-  name: 'govuk-prototype-kit-' + crypto.randomBytes(64).toString('hex'),
+  name: 'popmenu-prototype-kit-' + crypto.randomBytes(64).toString('hex'),
   resave: false,
   saveUninitialized: false,
   secret: crypto.randomBytes(64).toString('hex')

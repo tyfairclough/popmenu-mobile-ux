@@ -1,7 +1,7 @@
 /*
   copy-gov-modules.js
   ===========
-  copies files for node_modules into govuk_modules
+  copies files for node_modules 
 */
 
 var gulp = require('gulp')
