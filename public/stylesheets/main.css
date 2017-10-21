@@ -2341,3 +2341,52 @@ span.data-color {
 .sr-only {
     display: none;
 }
+
+
+#menu-selector > div {
+    padding: 10px;
+}
+
+#menu-selector h4 {
+    margin-bottom: 0
+}
+
+#menu-selector div div {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 20px;
+}
+
+#menu-selector div {
+    position: relative;
+}
+#menu-selector div div i {
+    position: absolute;
+    top: 25px;    
+    right: 0;
+}
+
+#menu-selector div div i + i {
+    position: absolute;
+    top: 5px;
+}
+
+.card.horizontal .card-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.white-form [type="radio"]:not(:checked) + label:before, .white-form [type="radio"]:not(:checked) + label:after {
+    border-color: white;
+}
+
+.white-form [type="radio"]:checked+label:after, .white-form [type="radio"].with-gap:checked+label:before, .white-form [type="radio"].with-gap:checked+label:after {
+    border-color: yellow;
+    color: yellow;
+}
+
+.white-form [type="checkbox"]+label, .white-form [type="radio"]:not(:checked)+label, .white-form [type="radio"]:checked+label {
+    color: white;
+}
