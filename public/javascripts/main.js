@@ -70,7 +70,7 @@ function initiate_plugins() {
     $('ul.tabs').tabs();
 
     // Modal
-    $('.modal-trigger').leanModal();
+   // $('.modal-trigger').leanModal();
 
     // Accordion
     $('.collapsible').collapsible({
@@ -253,7 +253,7 @@ function initiate_plugins() {
 $('ul.tabs').tabs();
 
 // Modal
-$('.modal-trigger').leanModal();
+//$('.modal-trigger').leanModal();
 
 // Accordion
 $('.collapsible').collapsible({

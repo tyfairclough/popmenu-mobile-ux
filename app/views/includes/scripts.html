@@ -1,7 +1,8 @@
 <!-- Javascript -->
 <script src="{{ asset_path }}javascripts/vendor/modernizr-2.7.1.min.js"></script>
 <script src="{{ asset_path }}javascripts/vendor/jquery-2.1.0.min.js"></script>
-<script src="{{ asset_path }}javascripts/vendor/materialize.min.js"></script>
+<script src="{{ asset_path }}javascripts/vendor/hammer.min.js"></script>
+<script src="{{ asset_path }}javascripts/vendor/materialize.js"></script>
 <script src="{{ asset_path }}javascripts/vendor/chart.min.js"></script>
 <script src="{{ asset_path }}javascripts/vendor/HeadsUp.js"></script>
 <script src="{{ asset_path }}javascripts/vendor/jquery.mixitup.min.js"></script>
@@ -12,8 +13,11 @@
 <script src="{{ asset_path }}javascripts/helper.js"></script>
 <script src="{{ asset_path }}javascripts/helper.js"></script>
 <script src="{{ asset_path }}javascripts/main.js"></script>
-
-<script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
-
 <script>
+    
+$(document).ready(function(){
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+        $('.parallax').parallax();
+});
+    
 </script>

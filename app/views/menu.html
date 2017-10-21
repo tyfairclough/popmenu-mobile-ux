@@ -14,7 +14,7 @@
     <div id="main" class="main">
 
    <!-- Toolbar -->
-      <div id="toolbar" class="primary-color z-depth-1">
+      <div id="toolbar" class="transparent z-depth-1">
         <div class="open-left" id="open-left" data-activates="slide-out-left">
           <i class="ion-android-menu"></i>
         </div>
@@ -25,11 +25,106 @@
       <!-- End of Toolbar -->
 
       <!-- Page Contents -->
-      <div class="animated fadeinup">
+      <div class="page animated fadeinup">
         
-        
-          <!-- welcome to our menu -->
-       <div class="event-header bg-1">
+                   <div class="row z-depth-1" id="menu-selector">
+            <div class="col s6 black" style="position: relative;">
+                <h4 class="white-text">Choose menu</h4>
+                <h6 class="white-text">Full menu</h6>
+              <div style="position: absolute; top: 0; right: 10px;">
+                    <i class="right ion-android-arrow-dropdown"></i>
+                    <i class="right ion-android-arrow-dropup"></i>
+                </div>                
+             </div>
+            <div class="col s6" style="position: relative;">
+                <h4>Show me</h4>
+                <h6>Everything</h6>
+                <div style="position: absolute; top: 0; right: 10px;">
+                    <i class="right ion-android-arrow-dropdown"></i>
+                    <i class="right ion-android-arrow-dropup"></i>
+                </div>
+             </div>
+          </div>
+          
+          
+        <!-- welcome to our menu -->
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="/public/images/IMG_8220-01-523x522.png"></div>
+        <div class="section opacity-overlay white-text">
+    <div class="row container">
+      <h2 class="header">Welcome to our menu</h2>
+      <p class=" ">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    </div>
+  </div>
+  </div>          
+          
+          
+     <div class="carousel carousel-slider center" data-indicators="true">
+    <div class="carousel-fixed-item center">
+      <a class="btn waves-effect darken-text-2">button</a>
+    </div>
+
+    <div class="carousel-item" href="#one!">
+            <div class="card darken-1">
+                                        <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="/public/images/chiken-plate.png">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Chicken plate</h2>
+                    <p>pork, chicken, ribs</p>
+                </div>
+            </div>
+          </div>
+       </div>
+         <div class="carousel-item" href="#two!">
+            <div class="card darken-1">
+                                        <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="/public/images/ribs.jpg">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Rib plate</h2>
+                    <p>pork, chicken, ribs</p>
+                </div>
+            </div>
+          </div>
+       </div>
+    <div class="carousel-item" href="#three!">
+            <div class="card darken-1">
+                                        <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="/public/images/hotdog.jpg">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Rib plate</h2>
+                    <p>pork, chicken, ribs</p>
+                </div>
+            </div>
+          </div>
+    </div>
+    <div class="carousel-item" href="#four!">
+       <div class="container">
+            <div class="card darken-1">
+                                        <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="/public/images/wings.jpg">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">6 Wings plate</h2>
+                    <p>pork, chicken, ribs</p>
+                </div>
+            </div>
+       </div>
+           </div>
+  </div>        
+        </div>
+   
+
+          
+          
+          <div class="event-header bg-1 hide">
         <div class="opacity-overlay"></div>
           <div class="bottom p-20">
             <div class="animated fadeinup delay-2">
@@ -42,7 +137,7 @@
 
           <!-- top five dishes -->
           
-          <div class="swiper-container steps swiper-container-horizontal center-align">
+          <div class="swiper-container steps swiper-container-horizontal center-align hide">
               <br>
               <h3>Simply the best</h3>
               <h4>Our top five as chosen by you</h4>
@@ -141,7 +236,8 @@
 
         </div>
           
-          
+
+                  
           <!-- make a reservation -->      
           <div class="section bg-gradient center">
           <h2 class="heading white-text">Make a table reservation</h2>
