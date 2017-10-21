@@ -2390,3 +2390,11 @@ span.data-color {
 .white-form [type="checkbox"]+label, .white-form [type="radio"]:not(:checked)+label, .white-form [type="radio"]:checked+label {
     color: white;
 }
+
+.event-header {
+    height: 70vh;
+}
+
+.bg-1 {
+    background: url('/public/images/bryan-furman.jpeg') no-repeat center / cover !important;
+}
