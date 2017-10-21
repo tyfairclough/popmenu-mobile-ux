@@ -13,7 +13,6 @@ var runSequence = require('run-sequence')
 gulp.task('generate-assets', function (done) {
   runSequence('clean',
                 'sass',
-                'sass-documentation',
                 'copy-assets', done)
 })
 

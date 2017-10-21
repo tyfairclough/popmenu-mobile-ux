@@ -5,7 +5,6 @@ var express = require('express')
 var session = require('express-session')
 var nunjucks = require('nunjucks')
 var routes = require('./app/routes.js')
-
 var app = express()
 
 var bodyParser = require('body-parser')

@@ -1,0 +1,875 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  PopMenu UX
+{% endblock %}
+
+{% block content %}
+
+
+    {% block body_start %}{% endblock %}
+
+        
+ <!-- Main Container -->
+    <div id="main" class="main">
+
+   <!-- Toolbar -->
+      <div id="toolbar" class="primary-color z-depth-1">
+        <div class="open-left" id="open-left" data-activates="slide-out-left">
+          <i class="ion-android-menu"></i>
+        </div>
+        <h1 class="title">Menu</h1>
+        <div class="open-right" id="open-right" data-activates="slide-out">
+        </div>
+      </div>
+      <!-- End of Toolbar -->
+
+      <!-- Page Contents -->
+      <div class="animated fadeinup">
+        
+        
+          <!-- welcome to our menu -->
+       <div class="event-header bg-1">
+        <div class="opacity-overlay"></div>
+          <div class="bottom p-20">
+            <div class="animated fadeinup delay-2">
+              <h3 class="title white-text">Our Menu</h3>
+              <p class="white-text m-0">It ain't just Bryan Furman's legendary pit-chicken on the menu today.</p>
+            </div>
+          </div>
+        </div>
+          
+
+          <!-- top five dishes -->
+          
+          <div class="swiper-container steps swiper-container-horizontal center-align">
+              <br>
+              <h3>Simply the best</h3>
+              <h4>Our top five as chosen by you</h4>
+          <div class="swiper-wrapper slider-steps">
+
+              <div class="swiper-slide">
+              <div class="valign-wrapper p-20">
+                <div class="valign center-align">
+               <div class="gallery-item-card">
+            <a href="images/v1.jpg" class="swipebox no-smoothState" title="This is dummy caption.">
+              <img src="/public/images/ribs.jpg" alt="image" style="width:80vw; height: auto;">
+              <div class="gallery-item-header">
+                <div class="gallery-item-author">
+                  <span>The Rib Plate</span>
+                  <span class="small">Beef rib and 1/4 smoked sticky chicken with Unholy BBQ sauce</span>
+                </div>
+              </div>
+            </a>
+          </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="valign-wrapper p-20">
+                <div class="valign center-align">
+               <div class="gallery-item-card">
+            <a href="images/v1.jpg" class="swipebox no-smoothState" title="This is dummy caption.">
+              <img src="/public/images/porkbiscuit.png" alt="image" style="width:80vw; height: auto;">
+              <div class="gallery-item-header">
+                <div class="gallery-item-author">
+                  <span>Brenda's biscuit</span>
+                  <span class="small">Beef rib and 1/4 smoked sticky chicken with Unholy BBQ sauce</span>
+                </div>
+              </div>
+            </a>
+          </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="valign-wrapper p-20">
+                <div class="valign center-align">
+               <div class="gallery-item-card">
+            <a href="images/v1.jpg" class="swipebox no-smoothState" title="This is dummy caption.">
+              <img src="/public/images/macncheese.png" alt="image" style="width:80vw; height: auto;">
+              <div class="gallery-item-header">
+                <div class="gallery-item-author">
+                  <span>Macaroni &amp; Cheese</span>
+                  <span class="small">Beef rib and 1/4 smoked sticky chicken with Unholy BBQ sauce</span>
+                </div>
+              </div>
+            </a>
+          </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="valign-wrapper p-20">
+                <div class="valign center-align">
+               <div class="gallery-item-card">
+            <a href="images/v1.jpg" class="swipebox no-smoothState" title="This is dummy caption.">
+              <img src="/public/images/Humble-Cornbread-783x522.jpg" alt="image" style="width:80vw; height: auto;">
+              <div class="gallery-item-header">
+                <div class="gallery-item-author">
+                  <span>Cracklin' Cornbread</span>
+                  <span class="small">Beef rib and 1/4 smoked sticky chicken with Unholy BBQ sauce</span>
+                </div>
+              </div>
+            </a>
+          </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="valign-wrapper p-20">
+                <div class="valign center-align">
+               <div class="gallery-item-card">
+            <a href="images/v1.jpg" class="swipebox no-smoothState" title="This is dummy caption.">
+              <img src="/public/images/LittlePlatter-522x522.png" alt="image" style="width:80vw; height: auto;">
+              <div class="gallery-item-header">
+                <div class="gallery-item-author">
+                  <span>Sampler plate</span>
+                  <span class="small">pork, chicken, ribs</span>
+                </div>
+              </div>
+            </a>
+          </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Add Pagination -->
+          <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+
+
+        </div>
+          
+          
+          <!-- make a reservation -->      
+          <div class="section bg-gradient center">
+          <h2 class="heading white-text">Make a table reservation</h2>
+          <p class="white-text">Don't be dissapointed, make a free reservation now to reserve your table.</p>
+          <a class="waves-effect waves-light btn-large transparent m-20">Book a table</a>
+        </div>
+          
+          
+          
+          <!-- main menu area -->
+          
+   <div class="container hide" id="sample">       
+<div class="row">
+    <div class="col s12">
+        <br>
+        <h4>Example menu section</h4>
+        <h6>example secondary text</h6>
+    </div>
+       </div>
+<div class="row">
+    <div class="col s12">
+
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="../../public/images/P10360-198-Final-Web-Use-JPG-783x522.jpg">
+            </div>
+            <div class="card-content">
+                <h2 class="header">Horizontal Card</h2>
+
+                <p>I am a very simple card. I am good at containing small bits of information.</p>
+            </div>
+            <div class="card-action"> 
+                <i class="ion-ios-heart"></i>
+                <i class="ion-leaf"></i>
+                <span>From $9.99</span>
+                <i class="ion-android-more-vertical right"></i> 
+            </div>
+        </div>
+    </div>
+       </div>
+<div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Right image</h2>
+                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                </div>
+            <div class="card-action"> 
+                <i class="ion-ios-heart"></i>
+                <i class="ion-leaf"></i>
+                <span>From $9.99</span>
+                <i class="ion-android-more-vertical right"></i> 
+            </div>
+            </div>
+            <div class="card-image">
+                <img src="https://lorempixel.com/100/190/nature/6">
+            </div>
+        </div>
+    </div>
+       </div>
+<div class="row">
+
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-image">
+                <img src="https://lorempixel.com/100/190/nature/6">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Left image</h2>
+                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                </div>
+            <div class="card-action"> 
+                <i class="ion-ios-heart"></i>
+                <i class="ion-leaf"></i>
+                <span>From $9.99</span>
+                <i class="ion-android-more-vertical right"></i> 
+            </div>
+            </div>
+
+        </div>
+    </div>
+    </div>     
+
+       <div class="row">
+       
+        <div class="col s12">
+            <div class="card darken-1">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Basic card with description</h2>
+                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                </div>
+            <div class="card-action"> 
+                <i class="ion-ios-heart"></i>
+                <i class="ion-leaf"></i>
+                <span>From $9.99</span>
+                <i class="ion-android-more-vertical right"></i> 
+            </div>
+            </div>
+          </div>
+           </div>
+       </div>
+              
+      <div class="row">
+        <div class="col s12">
+            <div class="card darken-1">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Basic card no description</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-leaf accent-text"></i>
+                    <span>$4.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+          </div>
+           </div>
+       </div>
+     <!-- end container -->
+          </div>
+      
+  <section id="appetizers">
+          
+          <div class="container">
+              
+              <div class="row">
+                  <div class="col s12">
+                    <br>
+                    <h4>Appetizers</h4>
+                  </div>
+              </div>
+          
+      <div class="row">
+        <div class="col s12">
+            <div class="card darken-1">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Fried pickles</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-leaf accent-text"></i>
+                    <span>$4.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+          </div>
+           </div>
+       </div>
+       <div class="row">
+        <div class="col s12">
+            <div class="card darken-1">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Pork skins</h2>
+                </div>
+                <div class="card-action">
+                    <span>$4.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+          </div>
+           </div>
+       </div>
+       <div class="row">
+        <div class="col s12">
+            <div class="card darken-1">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Jalapeno bottle caps</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-leaf accent-text"></i>
+                    <i class="ion-fireball"></i>
+                    <span>$6.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+          </div>
+           </div>
+       </div>
+<div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">6 piece wings</h2>
+                    <p>Smoke wings lightly tossed in our signature BBQ sauce</p>
+                </div>
+                <div class="card-action">
+                    <i class="ion-fireball"></i> 
+                    <span>$6.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+            <div class="card-image">
+                <img src="/public/images/wings.jpg">
+            </div>
+        </div>
+    </div>
+       </div>              
+     </div>
+  </section>
+          
+          <section id="tacos">
+            <div class="container">
+                <br>
+                <h4>Tacos</h4>
+                <h6>Choice of</h6>
+                                <br>
+       <div class="row">
+        <div class="col s12">
+            <div class="card darken-1">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Chicken tacos</h2>
+                </div>
+                <div class="card-action">
+                    <span>From $5.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+          </div>
+           </div>
+       </div>
+                
+        <div class="row">
+        <div class="col s12">
+            <div class="card darken-1">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Pork tacos</h2>
+                </div>
+                <div class="card-action">
+                    <span>From $5.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+          </div>
+           </div>
+       </div>                
+        <div class="row">
+        <div class="col s12">
+            <div class="card darken-1">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Beef tacos</h2>
+                </div>
+                <div class="card-action">
+                    <span>From $5.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+          </div>
+           </div>
+       </div>
+              </div>
+          </section>
+
+          
+                  <section id="bbq-salad">
+            <div class="container">
+                <br>
+                <h4>BBQ Salad</h4>
+                <br>
+                <div class="row">
+       
+        <div class="col s12">
+            <div class="card darken-1">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Large salad</h2>
+                    <p>Mixed greens, tomato, cucumber, red onion and cheese topped with your choice of meats</p>
+                </div>
+            <div class="card-action"> 
+                <i class="ion-leaf"></i>
+                <span>From $7.95</span>
+                <i class="ion-android-more-vertical right"></i> 
+            </div>
+            </div>
+          </div>
+           </div>
+       </div>
+          </div>
+          </section>
+            
+                  <section id="plates">
+            <div class="container">
+                <br>
+                <h4>Plates</h4>
+                <h6>Plates come with two (2) sides &amp; cornbread or bun. Add $.50 more for Cracklin' Cornbread. Add $1.00 more for White Meat</h6>
+                <br>
+<div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Brenda's biscuit</h2>
+                </div>
+                <div class="card-action">
+                    <span>$6.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+            <div class="card-image">
+                <img src="/public/images/briscuit.png">
+            </div>
+        </div>
+    </div>
+       </div>
+                <div class="row">
+       
+        <div class="col s12">
+            <div class="card darken-1">
+                                        <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="/public/images/chiken-plate.png">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Chicken plate</h2>
+                    <p>pork, chicken, ribs</p>
+                </div>
+            <div class="card-action"> 
+                <i class="ion-leaf"></i>
+                <span>From $10.99</span>
+                <i class="ion-android-more-vertical right"></i> 
+            </div>
+            </div>
+          </div>
+           </div>
+       </div>                
+          </div>
+                      
+<div class="section bg-gradient">
+          <h2 class="white-text">Follow our menu</h2>
+          <p class="white-text">New dishes get added all the time.</p>
+          <p class="white-text">Choose your update frequency</p>
+    <br>
+    <form action="#">
+      <p>
+    <input class="with-gap" name="follow-menu" type="radio" id="6-weeks" />
+    <label for="test5 white-text">Every 6 weeks</label>
+  </p>
+      <p>
+    <input class="with-gap" name="follow-menu" type="radio" id="asap" />
+    <label for="test5 white-text">The moment it happens</label>
+  </p>
+      <p>
+    <input class="with-gap" name="follow-menu" type="radio" id="never" />
+    <label for="test5 white-text">It's not for me thanks</label>
+  </p>
+    </form>
+          <a class="waves-effect waves-light transparent white-text">UPDATE</a>
+        </div>      <br>
+                     
+  <div class="container">          
+<div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Sampler plate</h2>
+                    <p>pork, chicken, ribs</p>
+                </div>
+                <div class="card-action">
+                    <i class="ion-ios-information"></i> 
+                    <span>From $19.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>
+          <div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">6 piece wings</h2>
+                    <p>Smoke wings lightly tossed in our signature BBQ sauce</p>
+                </div>
+                <div class="card-action">
+                    <i class="ion-fireball"></i> 
+                    <span>$6.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+            <div class="card-image">
+                <img src="/public/images/wings.jpg">
+            </div>
+        </div>
+    </div>
+       </div>   
+                      <div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Pork plate</h2>
+                    <p>pork, chicken, ribs</p>
+                </div>
+                <div class="card-action">
+                    <span>From $19.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+       </div>                               
+               
+          </div>            
+                      
+<div class="section">
+          <h2 class="">Pop dishes you like</h2>
+          <p>You can pop a dish if you like it and add dishes to your personel menu.</p>
+        </div>      
+      <br>
+                     
+          <div class="container">  
+<div class="row">
+    <div class="col s12">
+        <div class="card">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="/public/images/ribs.jpg">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Rib plate</h2>
+                    <p>1/2 slab 6 bone plate</p>
+                </div>
+                <div class="card-action">
+                    <i class="ion-ios-information"></i> 
+                    <span>From $17.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>
+                      
+            
+<div class="row">
+    <div class="col s12">
+        <div class="card">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="/public/images/veggie-plate.jpg">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Veggie plate</h2>
+                    <p>no fake me, just honest grilled veg</p>
+                </div>
+                <div class="card-action">
+                    <i class="ion-leaf"></i> 
+                    <i class="ion-ios-information"></i> 
+                    <span>From $10.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>
+                      
+            
+<div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Two meat plate</h2>
+                    <p>choose 2 meats</p>
+                </div>
+                <div class="card-action">
+                    <i class="ion-ios-information"></i> 
+                    <span>From $17.99</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>  
+</div>              
+          </section>
+          
+         
+          <section id="signature-sides">
+            <div class="container">
+                <br>
+                <h4>Signature sides</h4>
+                <br>
+            
+<div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Collard greens</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-leaf"></i> 
+                    <span>From $4.95</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div> 
+<div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                
+                <div class="card-content">
+                    <h2 class="header">Macaroni &amp; Cheese</h2>
+                </div>                
+                <div class="card-action">
+                    <i class="ion-leaf"></i> 
+                    <i class="ion-ios-information"></i> 
+                    <i class="ion-flash"></i><span>132</span> 
+                    <span>From $4.95</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+              <div class="card-image">
+                <img src="/public/images/macncheese.png">
+            </div>
+        </div>
+                  
+    </div>
+       </div> 
+<div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Hash &amp; Rice</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-leaf"></i> 
+                    <span>From $4.95</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>                 
+              </div>
+          </section>
+          
+  <section id="sides">
+          
+        <div class="container">
+        <br>
+            <h4>Sides</h4>
+            <br>
+<div class="row">
+    <div class="col s12">
+        <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="/public/images/beans.jpg">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">BBQ Beans</h2>
+                </div>
+                <div class="card-action">
+                    <span>From $4.95</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>   
+<div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Potato salad</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-leaf"></i> 
+                    <span>From $4.95</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div> 
+            <div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Cornbread</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-leaf"></i> 
+                    <span>From $4.95</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>
+            <div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">French fries</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-leaf"></i> 
+                    <span>From $4.95</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+       </div>   
+            
+          <div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Cracklin' cornbread</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-ios-information"></i> 
+                    <i class="ion-flash"><sup>7</sup> </i>
+                    <span>$4.95</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+            <div class="card-image">
+                <img src="../../public/images/Humble-Cornbread-783x522.jpg">
+            </div>
+        </div>
+    </div>
+       </div>              
+            
+      </div>
+      
+  </section>
+  
+          
+          <section id="sauces">
+              <div class="container">
+          <br>
+          <h4>Sauces</h4>
+              <h6>Extra with order</h6>
+              <br>
+                        <div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Quart</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-ios-information"></i> 
+                    <span>50&cent;</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+       </div> 
+                        <div class="row">
+    <div class="col s12">
+        <div class="card horizontal">
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h2 class="header">Pint</h2>
+                </div>
+                <div class="card-action">
+                    <i class="ion-ios-information"></i> 
+                    <span>$1.00</span>
+                    <i class="ion-android-more-vertical right"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+       </div>  
+            </div>  
+          </section>
+
+        <!-- Footer -->
+        <footer class="page-footer primary-color">
+          <div class="section center">
+            <h2 class="heading">Shuttle</h2>
+            <p class="center-align grey-text">You can use rows and columns here to organize your footer content.</p>
+            <div class="footer-icons">
+              <i class="ion-social-facebook m-10"></i>
+              <i class="ion-social-twitter m-10"></i>
+              <i class="ion-social-pinterest m-10"></i>
+              <i class="ion-social-instagram m-10"></i>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center">
+              <span>Made with <i class="ion-ios-heart"></i> by Codnauts</span>
+            </div>
+          </div>
+        </footer>
+      
+      </div> 
+      <!-- End of Page Contents -->
+
+      <!-- Sidebars -->
+      <!-- Left Sidebar -->
+        {% include "includes/leftsidebar.html" %}
+
+      <!-- Right Sidebar -->
+
+      <!-- End of Sidebars -->
+        
+    </div>
+    <!-- End of Main Container -->
+    
+          
+    {% block body_end %}{% endblock %}
+{% block footer %}{% endblock %}
+{% endblock %}
