@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  PopMenu UX
+{% endblock %}
+
+{% block content %}
+
+
+    {% block body_start %}{% endblock %}
+
+        
+ <!-- Main Container -->
+    <div id="main" class="main grey lighten-3">
+
+   <!-- Toolbar -->
+      <div id="toolbar" class="primary-color z-depth-1">
+        <div class="open-left" id="open-left" data-activates="slide-out-left">
+          <i class="ion-android-menu"></i>
+        </div>
+        <h1 class="title">Menu</h1>
+        <div class="open-right" id="open-right" data-activates="slide-out">
+        </div>
+      </div>
+      <!-- End of Toolbar -->
+
+    <!-- Page Contents -->
+      <div class="page animated fadeinup">
+        
+        <!-- Hero Header -->
+        <div class="hero-header animated fadein">
+          <!-- Slider -->         
+          <div class="swiper-container swiper-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="product.html"><img src="/public/images/macncheese-2.jpg" alt=""></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="product.html"><img src="/public/images/macncheese.png" alt=""></a>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- End of Slider -->
+
+          <!-- Floating Action Button -->
+          <div class="floating-button animated bouncein delay-3">
+            <a href="checkout.html" class="btn-floating btn-large waves-effect waves-light accent-color btn z-depth-1">
+              <i class="fa fa-bomb fa-3x"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Product Title -->
+        <div class="center-align p-20">
+          <h3 class="m-0"><strong>Macaroni &amp; Cheese</strong></h3>
+          <span class="small grey-text">Appetizer</span>
+          <h4>$4.99</h4>
+        </div>
+      
+        <!-- Prduct Description -->
+        <div class="product-description">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#product1">Overview</a></li>
+            <li class="tab col s3"><a class="active" href="#product2">Photos</a></li>
+            <li class="tab col s3"><a href="#product3">Reviews</a></li>
+          </ul>
+          
+          <div id="product1" class="p-20">
+            <p class="text-flow">It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+          </div>
+          <div id="product2" class="p-20">
+            <p class="text-flow">what a strenuous career it is that I've chosen! Travelling day in and day out. Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone or become friendly with them. It can all go to Hell!</p>
+          </div>
+            <div id="product3" class="p-20">
+            <p class="text-flow">what a strenuous career it is that I've chosen! Travelling day in and day out. Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone or become friendly with them. It can all go to Hell!</p>
+          </div>
+        </div>
+        
+      
+      </div> 
+      <!-- End of Page Contents -->
+
+      <!-- Sidebars -->
+      <!-- Left Sidebar -->
+        {% include "includes/leftsidebar.html" %}
+
+      <!-- Right Sidebar -->
+
+      <!-- End of Sidebars -->
+        
+    </div>
+    <!-- End of Main Container -->
+    
+          
+<!-- full screen panels -->
+
+    {% block body_end %}{% endblock %}
+{% block footer %}{% endblock %}
+{% endblock %}

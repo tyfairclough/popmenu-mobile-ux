@@ -2343,31 +2343,40 @@ span.data-color {
 }
 
 
-#menu-selector > div {
+#menu-options > div {
     padding: 10px;
 }
 
-#menu-selector h4 {
+
+#menu-options > div:hover {
+    cursor: pointer;
+    background: #555;
+}
+
+#menu-options > div + div:hover {
+    background: #ccc;
+}
+#menu-options h4 {
     margin-bottom: 0
 }
 
-#menu-selector div div {
+#menu-options div div {
     position: absolute;
     top: 0;
     right: 20px;
     width: 20px;
 }
 
-#menu-selector div {
+#menu-options div {
     position: relative;
 }
-#menu-selector div div i {
+#menu-options div div i {
     position: absolute;
     top: 25px;    
     right: 0;
 }
 
-#menu-selector div div i + i {
+#menu-options div div i + i {
     position: absolute;
     top: 5px;
 }
@@ -2397,4 +2406,70 @@ span.data-color {
 
 .bg-1 {
     background: url('/public/images/bryan-furman.jpeg') no-repeat center / cover !important;
+}
+
+#action-bar {
+    position: fixed;
+    bottom: 0px;
+    z-index: 999;
+    height: 70px;
+    color: black;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+#action-bar #main-pop {
+    background: white;
+    border-radius: 100%;
+    height: 125px;
+    box-shadow: 0 0 0 10px rgba(0,0,0,0.2);
+
+    margin-top: -10px;
+    position: relative;
+}
+#action-bar svg {
+    margin-top: 15px;
+}
+#action-bar p {
+    font-size: 12px;
+}
+#action-bar #main-pop svg {
+    margin-top: 10px
+}
+
+
+#menu-selector-list, #menu-filter-list {
+        position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+}
+
+#menu-selector-list ul, #menu-filter-list ul {
+    width: 100%;
+}
+
+#menu-selector-list ul li, #menu-filter-list ul li {
+        font-size: 4rem !important;
+    color: white;
+}
+
+#menu-selector-list ul li.active, #menu-filter-list ul li.active {
+    color: #fdd835 !important; 
+}
+
+#menu-selector-list svg, #menu-filter-list svg {
+    position: absolute;
+    top: 10vh;
+    right: 10vw;
+}
+
+#menu-selector-list svg:hover, , #menu-filter-list svg:hover {
+    cursor: pointer;
+}
+
+.product-description {
+    background: white;
 }

@@ -29,8 +29,8 @@
           
           
         
-                   <div class="row z-depth-1 m-0" id="menu-selector">
-            <div class="col s6 black">
+                   <div class="row z-depth-1 m-0" id="menu-options">
+            <div class="col s6 black" id="menu-selector">
                 <h4 class="white-text">Choose menu</h4>
                 <h6 class="grey-text lighten-4">Full menu</h6>
               <div>
@@ -38,7 +38,7 @@
                     <i class="white-text ion-android-arrow-dropup"></i>
                 </div>                
              </div>
-            <div class="col s6">
+            <div class="col s6" id="menu-filter">
                 <h4>Show me</h4>
                 <h6 class="grey-text">Everything</h6>
                 <div>
@@ -52,12 +52,11 @@
           <div class="event-header bg-1">
         <div class="opacity-overlay"></div>
           <div class="bottom p-20">
-            <div class="social-share-author m-0 animated fadeinup delay-4">
+            <div class="animated fadeinup delay-4">
               <img src="/public/images/bs-logo.png" alt="" class="avatar big">
-              <span class="white-text">Our menu</span>
             </div>
             <div class="animated fadeinup delay-2">
-              <h3 class="title white-text">It ain't just Bryan Furman's legendary pit-chicken on the menu today</h3>
+              <h3 class="title white-text">Experience Bryan Furman's legendary pit-chicken<br> on the menu today</h3>
             </div>
           </div>
         </div>
@@ -992,27 +991,36 @@
        </div>  
             </div>  
           </section>
+          
+        
+    
 
         <!-- Footer -->
-        <footer class="page-footer primary-color">
-          <div class="section center">
-            <h2 class="heading">PopMenu</h2>
-            <p class="center-align grey-text">Powering mind blowing menus.</p>
-            <div class="footer-icons">
-              <i class="ion-social-facebook m-10"></i>
-              <i class="ion-social-twitter m-10"></i>
-              <i class="ion-social-pinterest m-10"></i>
-              <i class="ion-social-instagram m-10"></i>
-            </div>
-          </div>
+        <footer class="page-footer">
           <div class="footer-copyright">
             <div class="container center">
-              <span>Made with <i class="ion-ios-heart"></i> by Codnauts</span>
+              <span>Made with <i class="ion-ios-heart"></i> by PopMenu</span>
             </div>
           </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </footer>
       
       </div> 
+        
+        
+        <!-- options bar -->
+                  <div class="primary-color z-depth-4" id="action-bar">
+            <div class="row">
+                <div class="col s4 center-align"><i class="fa fa-phone-volume
+ fa-3x"></i><p>Book a table</p></div>
+                <div class="col s4 center-align" id="main-pop"><i class="fa fa-bomb fa-5x"></i><p>Blow it up!</p></div>
+                <div class="col s4 center-align"><i class="fa fa-user-secret fa-3x"></i><p>Secret menu</p></div>
+              </div>
+          </div>
       <!-- End of Page Contents -->
 
       <!-- Sidebars -->
@@ -1027,6 +1035,12 @@
     <!-- End of Main Container -->
     
           
+<!-- full screen panels -->
+
+{% include "includes/menu-selector.html" %}
+{% include "includes/menu-filter.html" %}
+
+
     {% block body_end %}{% endblock %}
 {% block footer %}{% endblock %}
 {% endblock %}
