@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  PopMenu UX
+{% endblock %}
+
+{% block content %}
+
+    {% block body_start %}{% endblock %}
+      <main>
+<div class="page fullscreen grey lighten-4">
+        
+        <div class="login-form z-depth-1">
+          <h1>Keep it fresh</h1>
+            <p>Use your social network to be kept up to date on changes to our exciting menu.</p><p>We'll never share your personal info.</p>
+ 
+            
+          <a class="waves-effect blue waves-light btn-large block m-b-20 animated bouncein delay-2" href="index.html">
+              <i class="fab fa-facebook-f fa-2x"></i>
+              Facebook</a> 
+          <a class="waves-effect red waves-light btn-large block m-b-20 animated bouncein delay-2" href="index.html">
+              <i class="fab fa-google fa-2x"></i>              
+              Google</a> 
+          <span>The old fashioned way <a class="primary-text" href="signup.html">(use my email address)</a></span>
+        </div>
+    
+      </div>
+          
+      </main>
+    {% block body_end %}{% endblock %}
+{% block footer %}{% endblock %}
+{% endblock %}
